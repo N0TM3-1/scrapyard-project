@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Question Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="alarm.js"></script>
+</head>
+<body>
+    <h1 id="question">What's your favorite color?</h1>
+    <ul>
+        <li><input type="radio" id="answer1" name="answer" value="answer1">answer1</li>
+        <li><input type="radio" id="answer2" name="answer" value="answer2">answer2</li>
+        <li><input type="radio" id="answer3" name="answer" value="answer3">answer3</li>
+        <li><input type="radio" id="answer4" name="answer" value="answer4">answer4</li>
+    </ul>
+    <button id="submit" onclick="submit()">Submit</button>
+    <audio id="alarm" src="sound.mp3"></audio>
+</body>
+</html>
