@@ -7,13 +7,13 @@ body {
     background-color: #F5F7FA;
     color: #333;
 }
-h1 {
+h1{
     text-align: center;
     color: #2C3E50;
     margin-bottom: 30px;
     font-size: 2.2rem;
 }
-p, h4 {
+p, h3, h4{
     text-align: center;
 }
 /* Radio buttons styling */
